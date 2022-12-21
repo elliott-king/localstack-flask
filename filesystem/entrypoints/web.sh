@@ -7,5 +7,6 @@ else
                    --manage-script-name \
                    --mount /=src/entry.py \
                    --callable flask_app \
+                   --buffer-size 7000 \
                    --http 0.0.0.0:8080
 fi
